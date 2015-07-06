@@ -1,10 +1,9 @@
 {
-  "name": "monokai",
+  "name": "monokai-eighties",
   "theme": "syntax",
   "version": "0.14.0",
-  "private": true,
-  "description": "A monokai theme",
-  "repository": "https://github.com/kevinsawicki/monokai",
+  "description": "A monokai theme with Phoenix Dark's eighties mode enabled.",
+  "repository": "https://github.com/justo/monokai-eighties",
   "license": "MIT",
   "engines": {
     "atom": ">0.39.0"
