@@ -2,6 +2,8 @@
 
 A monokai-phoenix mashup theme for Atom. All syntax coloring is default monokai, but the background has been lightened up to match [Phoenix Dark's eighties mode](https://github.com/netatoo/phoenix-theme#eighties-mode-for-selected-tab), a Sublime Text theme.
 
+*Note:* Line background-highlighting is a part of this theme, so uncheck "Enable Background Color" in the built in highlight-line package.
+
 Originally converted from the [TextMate](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme)
 theme using the [TextMate bundle converter](http://atom.io/docs/latest/converting-a-text-mate-theme).
 

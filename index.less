@@ -16,16 +16,14 @@ atom-text-editor, :host {
     background-color: @syntax-wrap-guide-color;
   }
 
-  .gutter {
-    background-color: @syntax-gutter-background-color;
-
-    .cursor-line {
-      background-color: @syntax-gutter-background-color-selected;
-    }
+  .cursor-line {
+      background-color: @syntax-line-color;
   }
 
-  .line-number.cursor-line-no-selection {
-    background-color: @syntax-gutter-background-color-selected;
+  .gutter {
+    .cursor-line {
+    //   background-color: @syntax-gutter-background-color-selected;
+    }
   }
 
   .invisible {
