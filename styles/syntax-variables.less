@@ -1,9 +1,11 @@
+@import "colors";
+
 // General colors
-@syntax-text-color: #F8F8F2;
-@syntax-cursor-color: #F8F8F0;
-@syntax-selection-color: #49483E;
-// @syntax-background-color: #272822;
-@syntax-line-color: #3E3D32;
+@syntax-text-color: @light-ghost-white;
+@syntax-cursor-color: @ghost-white;
+@syntax-selection-color: @brown-gray;
+@syntax-background-color: #272822;
+@syntax-line-color: rgba(62, 61, 50, 0.8); // Todo: make this toggle-able in config
 
 // Guide colors
 @syntax-wrap-guide-color: rgba(255, 255, 255, .1);
@@ -11,7 +13,7 @@
 @syntax-invisible-character-color: rgba(197, 200, 198, .2);
 
 // For find and replace markers
-@syntax-result-marker-color: #888;
+@syntax-result-marker-color: @gray;
 @syntax-result-marker-color-selected: white;
 
 // Gutter colors
@@ -21,7 +23,7 @@
 @syntax-gutter-background-color-selected: @syntax-selection-color;
 
 // For git diff info. i.e. in the gutter
-@syntax-color-renamed: #ffd569;
-@syntax-color-added: #529b2f;
-@syntax-color-modified: #E6DB74;
-@syntax-color-removed: #F92672;
+@syntax-color-renamed: @light-orange;
+@syntax-color-added: @sea-green;
+@syntax-color-modified: @yellow;
+@syntax-color-removed: @pink;
