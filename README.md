@@ -2,9 +2,18 @@
 
 *Not very different from [https://github.com/kevinsawicki/monokai](https://github.com/kevinsawicki/monokai) yet.*
 
-A monokai-phoenix mashup theme for Atom. Created to be used with [Seti Eighties UI](https://github.com/justo/seti-eighties-ui). All syntax coloring is default monokai, but the background has been lightened up to match [Phoenix Dark's eighties mode](https://github.com/netatoo/phoenix-theme#eighties-mode-for-selected-tab), a Sublime Text theme.
+A monokai-phoenix mashup theme for Atom. ~~Created to be used with [Seti Eighties UI](https://github.com/justo/seti-eighties-ui).~~ Works well with one-dark-ui. All syntax coloring is default monokai, but the background has been lightened up to match [Phoenix Dark's eighties mode](https://github.com/netatoo/phoenix-theme#eighties-mode-for-selected-tab), a Sublime Text theme.
 
-*Note:* Line background-highlighting is a part of this theme, so uncheck "Enable Background Color" in the built in highlight-line package.
+*Note:* Line highlighting is a built-in to this theme. You can disable it with this in your custom stylesheet:
+
+```
+atom-text-editor::shadow {
+	.cursor-line {
+	  background-color: transparent;
+	}
+}
+```
+
 
 
 

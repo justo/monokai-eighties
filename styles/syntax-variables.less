@@ -4,7 +4,8 @@
 @syntax-text-color: @light-ghost-white;
 @syntax-cursor-color: @ghost-white;
 @syntax-selection-color: @brown-gray;
-@syntax-background-color: #272822;
+@syntax-background-color: #282828; // HACK: if there is any saturation in background-color one-dark will generate a gross yellow accent for the UI.
+@syntax-background-color-actual: #272822; // actual background color with slight saturation
 @syntax-line-color: rgba(62, 61, 50, 0.8); // Todo: make this toggle-able in config
 
 // Guide colors
